@@ -31,7 +31,6 @@ const Hero = () => {
 
         <div className="flex justify-center md:justify-end relative">
           <div className="relative w-full max-w-md flex justify-center">
-            {/* soft glow behind image */}
             <div className="absolute inset-0 bg-orange-500/20 blur-3xl rounded-full" />
 
             <img
