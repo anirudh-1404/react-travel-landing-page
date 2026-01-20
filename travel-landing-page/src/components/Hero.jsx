@@ -30,12 +30,21 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-end relative">
-          <div className="absolute inset-0 bg-orange-500/20 blur-2xl rounded-full" />
-          <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-            alt="Travel"
-            className="relative w-full max-w-md object-contain drop-shadow-2xl rounded-2xl"
-          />
+          <div className="relative w-full max-w-md flex justify-center">
+            {/* soft glow behind image */}
+            <div className="absolute inset-0 bg-orange-500/20 blur-3xl rounded-full" />
+
+            <img
+              src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=775&auto=format&fit=crop"
+              alt="Travel"
+              className="
+      relative w-full object-cover
+      rounded-3xl
+      shadow-2xl
+      border border-white/10
+    "
+            />
+          </div>
         </div>
       </div>
     </section>
